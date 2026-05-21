@@ -1,0 +1,140 @@
+Create a modern, premium, responsive business website for an HR consulting and recruitment startup based in Gurugram, India.
+
+Company Type:
+AI-driven HR Consulting & Recruitment Agency specializing in:
+1. EdTech Hiring
+2. Interior Design & Architecture Industry Hiring
+3. HR Outsourcing Services
+4. Talent Acquisition & Recruitment Consulting
+
+Company Name:
+TalentForge Consulting (Use this as placeholder)
+
+Website Style:
+- Modern, premium, clean, corporate
+- Minimal yet elegant UI
+- White, dark blue, and gold accent theme
+- Smooth animations and transitions
+- Mobile responsive
+- Professional startup look similar to premium consulting firms
+- Use modern typography and glassmorphism cards where appropriate
+
+Pages Required:
+
+1. Home Page
+Sections:
+- Hero banner with headline:
+  “Building High-Performing Teams for EdTech & Design Industries”
+- Subheading:
+  “AI-driven recruitment and HR consulting solutions helping businesses hire smarter and grow faster.”
+- CTA buttons:
+  “Book Consultation”
+  “Hire Talent”
+- Services overview cards
+- Industries served
+- Why choose us
+- Process timeline
+- Testimonials (use dummy data)
+- Client logos section (dummy logos)
+- Statistics section:
+  “500+ Candidates Hired”
+  “50+ Clients Served”
+  “95% Client Satisfaction”
+- Contact section
+- Footer with quick links and social icons
+
+2. About Us Page
+Include:
+- Company vision and mission
+- Founder story (dummy content)
+- Our approach
+- Why clients trust us
+- Team section with dummy HR consultants
+- Professional corporate layout
+
+3. Services Page
+Create detailed service cards for:
+- Recruitment Services
+- Executive Hiring
+- Bulk Hiring
+- HR Outsourcing
+- Payroll Coordination
+- Candidate Screening
+- AI-based Talent Sourcing
+- Startup Hiring Support
+
+Each service should have:
+- icon
+- short description
+- benefits
+- CTA button
+
+4. Industries Page
+Separate sections for:
+A. EdTech Recruitment
+- Academic counselors
+- Trainers
+- Faculty
+- Sales teams
+- Operations staff
+
+B. Interior & Architecture Recruitment
+- Interior designers
+- Architects
+- AutoCAD experts
+- 3D visualizers
+- Project managers
+
+Add industry-specific visuals and modern cards.
+
+5. Careers Page
+- Job listings layout
+- Search and filter functionality
+- Upload resume option
+- “Apply Now” buttons
+- Candidate registration form
+
+6. Contact Us Page
+Include:
+- Contact form
+- Google Maps embed
+- Office address:
+  Gurugram, Haryana, India
+- Email and phone placeholders
+- WhatsApp CTA button
+- Social media links
+
+Extra Features:
+- Sticky navbar
+- AI chatbot placeholder
+- Dark/light mode toggle
+- Animated counters
+- Scroll animations
+- SEO optimized structure
+- Fast loading performance
+- Modern footer design
+- Floating WhatsApp button
+- Newsletter subscription section
+
+Technical Requirements:
+- Use React + Tailwind CSS
+- Fully responsive design
+- Component-based architecture
+- Clean code structure
+- Reusable components
+- Modern UI/UX best practices
+- Optimized for deployment
+- Include placeholder images and dummy content
+- Add Framer Motion animations
+- Use Lucide React icons
+
+Design Inspiration:
+Blend of:
+- modern SaaS websites
+- premium consulting companies
+- startup HR platforms
+
+Tone:
+Professional, trustworthy, innovative, modern, growth-focused.
+
+Generate complete frontend code with all pages and components.
