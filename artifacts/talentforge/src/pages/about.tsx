@@ -3,7 +3,7 @@ import { Target, Lightbulb, Compass, Award } from "lucide-react";
 
 export default function About() {
   const team = [
-    { name: "Priya Sharma", title: "Managing Partner", bg: "bg-blue-100" },
+    { name: "Neha Kalra", title: "CEO & Managing Partner", bg: "bg-blue-100" },
     { name: "Rahul Verma", title: "Head of EdTech Recruitment", bg: "bg-indigo-100" },
     { name: "Ananya Patel", title: "Lead HR Consultant", bg: "bg-sky-100" },
     { name: "Vikram Singh", title: "Design Talent Specialist", bg: "bg-slate-100" },
@@ -78,11 +78,11 @@ export default function About() {
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
-                  PS
+                  NK
                 </div>
                 <div>
-                  <div className="font-bold text-foreground">Priya Sharma</div>
-                  <div className="text-sm text-muted-foreground">Founder & Managing Partner</div>
+                  <div className="font-bold text-foreground">Neha Kalra</div>
+                  <div className="text-sm text-muted-foreground">Founder & CEO</div>
                 </div>
               </div>
             </div>
