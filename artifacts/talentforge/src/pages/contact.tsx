@@ -83,8 +83,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold mb-1">Corporate Office</h3>
                     <p className="text-primary-foreground/80 leading-relaxed">
-                      Cyber Hub, DLF Phase 2<br />
-                      Gurugram, Haryana 122002<br />
+                      Ardee City, Sector 52<br />
+                      Gurugram, Haryana 122003<br />
                       India
                     </p>
                   </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-accent shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
-                    <p className="text-primary-foreground/80">+91 98765 43210</p>
+                    <p className="text-primary-foreground/80">+91 99685 63781</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -111,7 +111,7 @@ export default function Contact() {
                   className="w-full bg-transparent border-accent text-accent hover:bg-accent hover:text-primary"
                   asChild
                 >
-                  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919968563781" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5 mr-2" /> Chat on WhatsApp
                   </a>
                 </Button>

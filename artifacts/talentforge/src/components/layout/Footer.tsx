@@ -48,11 +48,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#C9A84C] shrink-0 mt-0.5" />
-                <span className="text-sm">Cyber Hub, DLF Phase 2, Gurugram, Haryana 122002, India</span>
+                <span className="text-sm">Ardee City, Sector 52, Gurugram, Haryana 122003, India</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#C9A84C] shrink-0" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 99685 63781</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#C9A84C] shrink-0" />
