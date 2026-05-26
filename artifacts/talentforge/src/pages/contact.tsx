@@ -100,7 +100,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-accent shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-primary-foreground/80">info@talentforgeconsulting.com</p>
+                    <p className="text-primary-foreground/80">info@nexorahrsolutions.com</p>
                   </div>
                 </div>
               </div>

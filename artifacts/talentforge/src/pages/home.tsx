@@ -16,7 +16,7 @@ const services = [
 ];
 
 const testimonials = [
-  { quote: "TalentForge didn't just fill roles; they found leaders who transformed our product strategy. Truly exceptional partners.", author: "Rajiv Kapoor", role: "CEO, InnovateEd", company: "EdTech Startup" },
+  { quote: "Nexora HR Solutions didn't just fill roles; they found leaders who transformed our product strategy. Truly exceptional partners.", author: "Rajiv Kapoor", role: "CEO, InnovateEd", company: "EdTech Startup" },
   { quote: "The AI-driven sourcing cut our time-to-hire by half. We've scaled our design team rapidly without compromising on quality.", author: "Meera Desai", role: "Principal Architect", company: "Desai & Co. Studios" },
 ];
 

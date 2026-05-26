@@ -19,7 +19,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            About TalentForge
+            About Nexora HR Solutions
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -74,7 +74,7 @@ export default function About() {
                 "After spending over a decade heading talent acquisition at leading EdTech decacorns, I noticed a persistent gap. Generic recruitment agencies didn't understand the nuance of academic sales, while in-house teams struggled with the sheer volume of specialized hiring needed during hyper-growth."
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                "I founded TalentForge with a singular premise: specialized industries require specialized hiring. By bringing together AI-driven sourcing and veteran HR intuition, we've created a framework that guarantees not just a candidate, but the right partner for your growth."
+                "I founded Nexora HR Solutions with a singular premise: specialized industries require specialized hiring. By bringing together AI-driven sourcing and veteran HR intuition, we've created a framework that guarantees not just a candidate, but the right partner for your growth."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">

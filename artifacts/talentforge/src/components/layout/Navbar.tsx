@@ -38,10 +38,10 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl leading-none">
-            TF
+            NH
           </div>
           <span className="font-bold text-xl tracking-tight text-foreground">
-            TalentForge
+            Nexora HR Solutions
           </span>
         </Link>
 

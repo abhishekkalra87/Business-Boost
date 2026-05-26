@@ -13,10 +13,10 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-white mb-6">
               <div className="w-8 h-8 rounded bg-[#C9A84C] flex items-center justify-center text-[#0B1221] font-bold text-xl leading-none">
-                TF
+                NH
               </div>
               <span className="font-bold text-xl tracking-tight">
-                TalentForge
+                Nexora HR Solutions
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#C9A84C] shrink-0" />
-                <span className="text-sm">info@talentforgeconsulting.com</span>
+                <span className="text-sm">info@nexorahrsolutions.com</span>
               </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} TalentForge Consulting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Nexora HR Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>

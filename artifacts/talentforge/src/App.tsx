@@ -45,7 +45,7 @@ function Router() {
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="talentforge-theme">
+    <ThemeProvider defaultTheme="light" storageKey="nexora-theme">
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
