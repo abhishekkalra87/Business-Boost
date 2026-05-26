@@ -1,4 +1,5 @@
 import { usePageTitle } from "@/hooks/use-page-title";
+import { useConsultation } from "@/context/consultation-context";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ArrowRight, Building, Users, Zap, Award, Search, HandshakeIcon, CheckCircle2 } from "lucide-react";
@@ -23,6 +24,7 @@ const testimonials = [
 
 export default function Home() {
   usePageTitle();
+  const { openModal } = useConsultation();
   return (
     <div className="flex flex-col min-h-screen pt-20">
       {/* Hero Section */}
@@ -42,8 +44,8 @@ export default function Home() {
               AI-driven recruitment and HR consulting solutions helping businesses hire smarter and grow faster.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-              <Button size="lg" className="w-full sm:w-auto text-base h-14 px-8" asChild>
-                <Link href="/contact">Book Consultation</Link>
+              <Button size="lg" className="w-full sm:w-auto text-base h-14 px-8" onClick={openModal} data-testid="button-hero-book-consultation">
+                Book Consultation
               </Button>
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-14 px-8" asChild>
                 <Link href="/services">Hire Talent</Link>

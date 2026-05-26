@@ -3,12 +3,14 @@ import { Menu, X, Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/theme-provider";
+import { useConsultation } from "@/context/consultation-context";
 
 export function Navbar() {
   const [location] = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, setTheme } = useTheme();
+  const { openModal } = useConsultation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,8 +73,8 @@ export function Navbar() {
           >
             {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
           </Button>
-          <Button asChild>
-            <Link href="/contact">Book Consultation</Link>
+          <Button onClick={openModal} data-testid="button-nav-book-consultation">
+            Book Consultation
           </Button>
         </div>
 
@@ -108,8 +110,8 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Button className="w-full mt-4" asChild onClick={() => setMobileMenuOpen(false)}>
-            <Link href="/contact">Book Consultation</Link>
+          <Button className="w-full mt-4" onClick={() => { openModal(); setMobileMenuOpen(false); }} data-testid="button-mobile-book-consultation">
+            Book Consultation
           </Button>
         </div>
       )}
