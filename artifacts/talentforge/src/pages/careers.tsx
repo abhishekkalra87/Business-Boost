@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Search, MapPin, Briefcase, Clock, Upload, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -17,6 +18,7 @@ const jobs = [
 ];
 
 export default function Careers() {
+  usePageTitle("Careers");
   const [searchTerm, setSearchTerm] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("All");
 

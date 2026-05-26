@@ -1,9 +1,11 @@
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Users, Briefcase, Building2, UserPlus, Receipt, Search, Cpu, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Services() {
+  usePageTitle("Services");
   const services = [
     {
       title: "Recruitment Services",

@@ -1,3 +1,4 @@
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, MessageCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -6,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 export default function Contact() {
+  usePageTitle("Contact Us");
   return (
     <div className="min-h-screen pt-20 pb-24 bg-background">
       <div className="container mx-auto px-4 py-16">

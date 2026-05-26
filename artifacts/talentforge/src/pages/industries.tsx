@@ -1,9 +1,11 @@
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { BookOpen, PenTool, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Industries() {
+  usePageTitle("Industries");
   return (
     <div className="min-h-screen pt-20 pb-24 bg-background">
       {/* Header */}

@@ -1,7 +1,9 @@
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Target, Lightbulb, Compass, Award } from "lucide-react";
 
 export default function About() {
+  usePageTitle("About Us");
   const team = [
     { name: "Neha Kalra", title: "CEO & Managing Partner", bg: "bg-blue-100" },
     { name: "Rahul Verma", title: "Head of EdTech Recruitment", bg: "bg-indigo-100" },

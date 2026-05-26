@@ -1,3 +1,4 @@
+import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ArrowRight, Building, Users, Zap, Award, Search, HandshakeIcon, CheckCircle2 } from "lucide-react";
@@ -21,6 +22,7 @@ const testimonials = [
 ];
 
 export default function Home() {
+  usePageTitle();
   return (
     <div className="flex flex-col min-h-screen pt-20">
       {/* Hero Section */}
