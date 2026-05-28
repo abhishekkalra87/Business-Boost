@@ -37,10 +37,10 @@ export default function Home() {
             className="max-w-4xl mx-auto space-y-6"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-tight">
-              Building High-Performing Teams for <span className="text-accent">EdTech & Design</span> Industries
+              Your <span className="text-accent">Growth Partner</span> for Startup & SME Hiring
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              AI-driven recruitment and HR consulting solutions helping businesses hire smarter and grow faster.
+              Helping startups and small businesses build agile, high-performing teams through modern HR solutions.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
               <Button size="lg" className="w-full sm:w-auto text-base h-14 px-8" onClick={openModal} data-testid="button-hero-book-consultation">
