@@ -139,7 +139,6 @@ export function BookConsultationModal() {
                       <SelectItem value="recruitment">Recruitment Services</SelectItem>
                       <SelectItem value="executive">Executive Hiring</SelectItem>
                       <SelectItem value="bulk">Bulk Hiring</SelectItem>
-                      <SelectItem value="hr-outsourcing">HR Outsourcing</SelectItem>
                       <SelectItem value="payroll">Payroll Coordination</SelectItem>
                       <SelectItem value="screening">Candidate Screening</SelectItem>
                       <SelectItem value="ai-sourcing">AI-based Talent Sourcing</SelectItem>

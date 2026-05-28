@@ -26,12 +26,6 @@ export default function Services() {
       benefits: ["Campus recruitment drives", "Assessment centers", "Rapid onboarding coordination"]
     },
     {
-      title: "HR Outsourcing",
-      icon: <UserPlus className="w-8 h-8" />,
-      desc: "Let us act as your extended HR department, handling employee lifecycle management and compliance.",
-      benefits: ["Policy formulation", "Performance management", "Statutory compliance"]
-    },
-    {
       title: "Payroll Coordination",
       icon: <Receipt className="w-8 h-8" />,
       desc: "Streamlined payroll processing ensuring accurate, timely, and compliant disbursements.",

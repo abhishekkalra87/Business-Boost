@@ -6,9 +6,6 @@ export default function About() {
   usePageTitle("About Us");
   const team = [
     { name: "Neha Kalra", title: "CEO & Managing Partner", bg: "bg-blue-100" },
-    { name: "Rahul Verma", title: "Head of EdTech Recruitment", bg: "bg-indigo-100" },
-    { name: "Ananya Patel", title: "Lead HR Consultant", bg: "bg-sky-100" },
-    { name: "Vikram Singh", title: "Design Talent Specialist", bg: "bg-slate-100" },
   ];
 
   return (

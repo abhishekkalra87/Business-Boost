@@ -15,9 +15,10 @@ export function Footer() {
               <div className="w-8 h-8 rounded bg-[#C9A84C] flex items-center justify-center text-[#0B1221] font-bold text-xl leading-none">
                 NH
               </div>
-              <span className="font-bold text-xl tracking-tight">
-                Nexora HR Solutions
-              </span>
+              <div className="flex flex-col leading-tight">
+                <span className="font-bold text-lg tracking-tight">Nexora HR Solutions</span>
+                <span className="text-xs text-[#C9A84C] font-medium tracking-widest uppercase">Specialized Talent Partner</span>
+              </div>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
               AI-driven HR consulting and recruitment solutions helping businesses hire smarter and grow faster.

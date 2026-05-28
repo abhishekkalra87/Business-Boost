@@ -42,9 +42,10 @@ export function Navbar() {
           <div className="w-8 h-8 rounded bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl leading-none">
             NH
           </div>
-          <span className="font-bold text-xl tracking-tight text-foreground">
-            Nexora HR Solutions
-          </span>
+          <div className="flex flex-col leading-tight">
+            <span className="font-bold text-lg tracking-tight text-foreground">Nexora HR Solutions</span>
+            <span className="text-xs text-accent font-medium tracking-widest uppercase">Specialized Talent Partner</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}

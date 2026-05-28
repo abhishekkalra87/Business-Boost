@@ -14,7 +14,6 @@ const stats = [
 const services = [
   { title: "Recruitment Services", icon: <Search className="w-6 h-6" />, desc: "End-to-end talent acquisition tailored to your specific industry needs." },
   { title: "Executive Hiring", icon: <Award className="w-6 h-6" />, desc: "Sourcing top-tier leadership that drives strategic growth and vision." },
-  { title: "HR Outsourcing", icon: <Users className="w-6 h-6" />, desc: "Comprehensive HR management so you can focus on your core business." },
 ];
 
 const testimonials = [
