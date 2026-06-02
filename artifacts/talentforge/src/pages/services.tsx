@@ -1,7 +1,7 @@
 import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { Users, Briefcase, Building2, UserPlus, Receipt, Search, Cpu, Rocket } from "lucide-react";
+import { Users, Briefcase, Search, Cpu, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Services() {
@@ -18,18 +18,6 @@ export default function Services() {
       icon: <Briefcase className="w-8 h-8" />,
       desc: "Confidential, targeted search for C-suite and senior leadership roles that require extreme precision.",
       benefits: ["Discreet market mapping", "Competitor analysis", "Cultural fitment assessment"]
-    },
-    {
-      title: "Bulk Hiring",
-      icon: <Building2 className="w-8 h-8" />,
-      desc: "Scale your sales or operations teams rapidly without compromising on the quality of hires.",
-      benefits: ["Campus recruitment drives", "Assessment centers", "Rapid onboarding coordination"]
-    },
-    {
-      title: "Payroll Coordination",
-      icon: <Receipt className="w-8 h-8" />,
-      desc: "Streamlined payroll processing ensuring accurate, timely, and compliant disbursements.",
-      benefits: ["Tax calculations", "Leave & attendance sync", "Query resolution"]
     },
     {
       title: "Candidate Screening",
@@ -87,15 +75,6 @@ export default function Services() {
               <h3 className="text-xl font-bold text-card-foreground mb-3">{service.title}</h3>
               <p className="text-muted-foreground text-sm mb-6 flex-grow">{service.desc}</p>
               
-              <ul className="space-y-2 mb-8">
-                {service.benefits.map((benefit, bIdx) => (
-                  <li key={bIdx} className="text-sm text-foreground flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 shrink-0" />
-                    {benefit}
-                  </li>
-                ))}
-              </ul>
-
               <Button variant="outline" className="w-full mt-auto" asChild>
                 <Link href="/contact">Inquire Now</Link>
               </Button>

@@ -89,39 +89,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-foreground">Meet The Experts</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Our team consists of veteran recruiters and HR strategists who understand your industry inside out.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, idx) => (
-              <motion.div 
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="text-center"
-              >
-                <div className={`w-48 h-48 mx-auto rounded-full mb-6 ${member.bg} flex items-center justify-center border-4 border-background shadow-lg overflow-hidden`}>
-                  <img 
-                    src={`https://api.dicebear.com/7.x/initials/svg?seed=${member.name}&backgroundColor=0b1221&textColor=c9a84c`} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="font-bold text-xl mb-1 text-foreground">{member.name}</h3>
-                <p className="text-sm text-muted-foreground">{member.title}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

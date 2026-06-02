@@ -162,7 +162,7 @@ export default function Home() {
         <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 -ml-32 -mb-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl pointer-events-none"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Trusted by Industry Leaders</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {testimonials.map((t, idx) => (
               <motion.div
