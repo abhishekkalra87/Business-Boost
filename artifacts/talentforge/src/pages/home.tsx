@@ -16,10 +16,6 @@ const services = [
   { title: "Executive Hiring", icon: <Award className="w-6 h-6" />, desc: "Sourcing top-tier leadership that drives strategic growth and vision." },
 ];
 
-const testimonials = [
-  { quote: "Nexora HR Solutions didn't just fill roles; they found leaders who transformed our product strategy. Truly exceptional partners.", author: "Rajiv Kapoor", role: "CEO, InnovateEd", company: "EdTech Startup" },
-  { quote: "The AI-driven sourcing cut our time-to-hire by half. We've scaled our design team rapidly without compromising on quality.", author: "Meera Desai", role: "Principal Architect", company: "Desai & Co. Studios" },
-];
 
 export default function Home() {
   usePageTitle();
@@ -153,38 +149,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
-        <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 -ml-32 -mb-32 w-96 h-96 rounded-full bg-accent/10 blur-3xl pointer-events-none"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {testimonials.map((t, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="bg-primary-foreground/5 p-8 rounded-2xl border border-primary-foreground/10 backdrop-blur-sm"
-              >
-                <div className="mb-6 text-accent">
-                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.017 21L16.411 14.182C14.73 14.182 13.404 12.871 13.404 11.21V3H21.034V11.21C21.034 14.502 18.775 18.23 15.688 21H14.017ZM3.125 21L5.519 14.182C3.838 14.182 2.512 12.871 2.512 11.21V3H10.142V11.21C10.142 14.502 7.883 18.23 4.796 21H3.125Z"/>
-                  </svg>
-                </div>
-                <p className="text-lg mb-8 text-primary-foreground/90 italic">"{t.quote}"</p>
-                <div>
-                  <div className="font-bold text-white">{t.author}</div>
-                  <div className="text-sm text-primary-foreground/70">{t.role}, {t.company}</div>
-                </div>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
