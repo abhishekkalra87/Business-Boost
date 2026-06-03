@@ -1,9 +1,13 @@
-import express, { type Express } from "express";
+import express, { type Express, type RequestHandler } from "express";
 import cors from "cors";
-import { pinoHttp } from "pino-http";
-import type { IncomingMessage, ServerResponse } from "http";
 import router from "./routes";
 import { logger } from "./lib/logger";
+
+// Use require to sidestep ESM/CJS interop ambiguity with pino-http on all platforms
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const pinoHttp = (require("pino-http").pinoHttp ?? require("pino-http")) as (
+  opts: Record<string, unknown>,
+) => RequestHandler;
 
 const app: Express = express();
 
@@ -11,14 +15,14 @@ app.use(
   pinoHttp({
     logger,
     serializers: {
-      req(req: IncomingMessage) {
+      req(req: { id: unknown; method: string; url?: string }) {
         return {
           id: req.id,
           method: req.method,
-          url: req.url?.split("?")[0],
+          url: typeof req.url === "string" ? req.url.split("?")[0] : req.url,
         };
       },
-      res(res: ServerResponse) {
+      res(res: { statusCode: number }) {
         return {
           statusCode: res.statusCode,
         };
