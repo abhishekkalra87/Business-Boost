@@ -1,7 +1,7 @@
 {
-  "buildCommand": "pnpm --filter @workspace/talentforge run build",
+  "framework": "vite",
+  "buildCommand": "pnpm install && pnpm --filter @workspace/talentforge run build",
   "outputDirectory": "artifacts/talentforge/dist",
-  "installCommand": "pnpm install",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
