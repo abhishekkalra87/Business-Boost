@@ -1,4 +1,6 @@
 {
+  "buildCommand": "cd ../.. && pnpm install && pnpm --filter @workspace/talentforge run build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
