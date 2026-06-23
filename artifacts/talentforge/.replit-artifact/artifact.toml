@@ -19,7 +19,7 @@ run = "pnpm --filter @workspace/talentforge run dev"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/talentforge", "run", "build" ]
-publicDir = "artifacts/talentforge/dist/public"
+publicDir = "artifacts/talentforge/dist"
 serve = "static"
 
 [[services.production.rewrites]]
