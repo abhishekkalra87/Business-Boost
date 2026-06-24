@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export function usePageTitle(page?: string) {
   useEffect(() => {
     document.title = page
-      ? `${page} | Nexora HR Solutions`
-      : "Nexora HR Solutions";
+      ? `${page} | Nexzenta HR Solutions`
+      : "Nexzenta HR Solutions";
   }, [page]);
 }

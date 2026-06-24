@@ -42,7 +42,7 @@ export function Navbar() {
             NH
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="font-bold text-lg tracking-tight text-foreground">Nexora HR Solutions</span>
+            <span className="font-bold text-lg tracking-tight text-foreground">Nexzenta HR Solutions</span>
             <span className="text-xs text-accent font-medium tracking-widest uppercase">Specialized Talent Partner</span>
           </div>
         </Link>

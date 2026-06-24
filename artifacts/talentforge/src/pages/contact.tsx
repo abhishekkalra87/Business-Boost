@@ -113,7 +113,7 @@ export default function Contact() {
                   className="w-full bg-transparent border-accent text-accent hover:bg-accent hover:text-primary"
                   asChild
                 >
-                  <a href="https://wa.me/919968563781?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Nexora%20HR%20Solutions." target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919968563781?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Nexzenta%20HR%20Solutions." target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5 mr-2" /> Chat on WhatsApp
                   </a>
                 </Button>

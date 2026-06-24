@@ -16,7 +16,7 @@ export function Footer() {
                 NH
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="font-bold text-lg tracking-tight">Nexora HR Solutions</span>
+                <span className="font-bold text-lg tracking-tight">Nexzenta HR Solutions</span>
                 <span className="text-xs text-[#C9A84C] font-medium tracking-widest uppercase">Specialized Talent Partner</span>
               </div>
             </Link>
@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Nexora HR Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Nexzenta HR Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>
