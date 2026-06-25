@@ -13,7 +13,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-white mb-6">
               <div className="w-8 h-8 rounded bg-[#C9A84C] flex items-center justify-center text-[#0B1221] font-bold text-xl leading-none">
-                NH
+                NZ
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-bold text-lg tracking-tight">NexZenta</span>
