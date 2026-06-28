@@ -42,23 +42,43 @@ function exportToCSV(contacts: Contact[]) {
   URL.revokeObjectURL(url);
 }
 
+const LAST_SEEN_KEY = "nz_admin_last_seen";
+
 export default function AdminContacts() {
   const params = useParams<{ token: string }>();
   const [contacts, setContacts] = useState<Contact[]>([]);
   const [status, setStatus] = useState<"loading" | "loaded" | "error">("loading");
+  const [newCount, setNewCount] = useState(0);
+  const [lastSeen, setLastSeen] = useState<Date | null>(null);
 
   useEffect(() => {
+    const stored = localStorage.getItem(LAST_SEEN_KEY);
+    const lastSeenDate = stored ? new Date(stored) : null;
+    setLastSeen(lastSeenDate);
+
     fetch(`/api/admin/${params.token}/contacts`)
       .then((r) => {
         if (!r.ok) throw new Error("Unauthorized");
         return r.json();
       })
       .then((data) => {
-        setContacts(data.contacts);
+        const all: Contact[] = data.contacts;
+        setContacts(all);
+        if (lastSeenDate) {
+          const unseen = all.filter((c) => new Date(c.createdAt) > lastSeenDate);
+          setNewCount(unseen.length);
+        } else {
+          setNewCount(all.length);
+        }
         setStatus("loaded");
+        // Mark all as seen now
+        localStorage.setItem(LAST_SEEN_KEY, new Date().toISOString());
       })
       .catch(() => setStatus("error"));
   }, [params.token]);
+
+  const isNew = (c: Contact) =>
+    lastSeen ? new Date(c.createdAt) > lastSeen : true;
 
   if (status === "error") {
     return (
@@ -85,8 +105,20 @@ export default function AdminContacts() {
               <div className="w-7 h-7 rounded bg-[#C9A84C] flex items-center justify-center text-[#0B1221] font-bold text-sm">NZ</div>
               <span className="font-bold text-[#0B1221] text-lg">NexZenta</span>
             </div>
-            <h1 className="text-2xl font-bold text-[#0B1221]">Enquiries</h1>
-            <p className="text-gray-500 text-sm mt-1">{contacts.length} total submission{contacts.length !== 1 ? "s" : ""}</p>
+            <div className="flex items-center gap-3">
+              <h1 className="text-2xl font-bold text-[#0B1221]">Enquiries</h1>
+              {newCount > 0 && (
+                <span className="px-2.5 py-0.5 rounded-full bg-red-500 text-white text-xs font-bold animate-pulse">
+                  {newCount} NEW
+                </span>
+              )}
+            </div>
+            <p className="text-gray-500 text-sm mt-1">
+              {contacts.length} total submission{contacts.length !== 1 ? "s" : ""}
+              {newCount > 0 && (
+                <span className="ml-2 text-red-500 font-medium">· {newCount} since your last visit</span>
+              )}
+            </p>
           </div>
           <div className="flex gap-2">
             {contacts.length > 0 && (
@@ -117,7 +149,12 @@ export default function AdminContacts() {
               <div key={c.id} className="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
                 <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                   <div>
-                    <h2 className="font-bold text-[#0B1221] text-lg">{c.name}</h2>
+                    <div className="flex items-center gap-2">
+                      <h2 className="font-bold text-[#0B1221] text-lg">{c.name}</h2>
+                      {isNew(c) && (
+                        <span className="px-2 py-0.5 rounded-full bg-red-500 text-white text-[10px] font-bold uppercase tracking-wide">New</span>
+                      )}
+                    </div>
                     {c.company && <p className="text-gray-500 text-sm">{c.company}</p>}
                   </div>
                   <div className="flex flex-wrap gap-2 items-center">
