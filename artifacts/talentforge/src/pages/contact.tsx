@@ -114,7 +114,7 @@ export default function Contact() {
                   <Textarea id="message" value={form.message} onChange={handleChange} placeholder="How can we help you?" rows={5} required />
                 </div>
                 {status === "error" && (
-                  <p className="text-sm text-red-500">Something went wrong. Please try again or email us directly at Talent@NexZenta.com</p>
+                  <p className="text-sm text-red-500">Something went wrong. Please try again or email us directly at talent@nexzenta.com</p>
                 )}
                 <Button type="submit" className="w-full h-12 text-base" disabled={status === "sending"}>
                   {status === "sending" ? (
@@ -158,8 +158,8 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-accent shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <a href="mailto:Talent@NexZenta.com" className="text-accent hover:underline font-medium">
-                      Talent@NexZenta.com
+                    <a href="mailto:talent@nexzenta.com" className="text-accent hover:underline font-medium">
+                      talent@nexzenta.com
                     </a>
                   </div>
                 </div>

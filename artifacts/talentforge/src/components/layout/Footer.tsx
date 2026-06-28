@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#C9A84C] shrink-0" />
-                <span className="text-sm">talent@nexorahrsolutions.com</span>
+                <span className="text-sm">talent@nexzenta.com</span>
               </li>
             </ul>
           </div>
