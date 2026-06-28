@@ -1,53 +1,17 @@
 import { Router } from "express";
 import { z } from "zod";
-import nodemailer from "nodemailer";
 import { db } from "@workspace/db";
 import { contactsTable } from "@workspace/db";
+import { getTransporter, resetTransporter, verifyTransporter } from "./emailTransporter";
 
 const router = Router();
 
 const NEXZENTA_EMAIL = "talent@nexzenta.com";
 const NEXZENTA_PHONE = "919968563781";
 
-// ── Persistent transporter (created once, reused for all requests) ────────────
-let transporter: nodemailer.Transporter | null = null;
-
-function getTransporter(): nodemailer.Transporter | null {
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPass = process.env.SMTP_PASS;
-  if (!smtpUser || !smtpPass) return null;
-
-  if (!transporter) {
-    transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: { user: smtpUser, pass: smtpPass },
-      pool: true,
-      maxConnections: 3,
-      rateDelta: 1000,
-      rateLimit: 5,
-    });
-  }
-  return transporter;
-}
-
 // Warm up connection on server start
 const warmupTransporter = (): void => {
-  const t = getTransporter();
-  if (t) {
-    t.verify((err) => {
-      if (err) {
-        console.error("[SMTP] Connection verify failed:", err.message);
-        // Reset so it retries on next request
-        transporter = null;
-      } else {
-        console.log("[SMTP] Connection verified — ready to send emails");
-      }
-    });
-  } else {
-    console.warn("[SMTP] SMTP_USER/SMTP_PASS not set — email disabled");
-  }
+  verifyTransporter();
 };
 warmupTransporter();
 
@@ -77,7 +41,7 @@ router.post("/contact", async (req, res) => {
 
   // If transporter was reset due to earlier error, rebuild it
   if (!t) {
-    transporter = null;
+    resetTransporter();
     t = getTransporter();
   }
 
@@ -125,7 +89,7 @@ router.post("/contact", async (req, res) => {
         const msg = err instanceof Error ? err.message : String(err);
         req.log.error({ err, attempt: attempts }, `Email attempt ${attempts} failed: ${msg}`);
         // Reset transporter on failure so it reconnects next attempt
-        transporter = null;
+        resetTransporter();
         t = getTransporter()!;
         // Wait briefly before retrying
         if (attempts < 3) await new Promise((r) => setTimeout(r, 1000 * attempts));
