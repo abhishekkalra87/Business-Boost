@@ -12,6 +12,36 @@ interface Contact {
   createdAt: string;
 }
 
+function exportToCSV(contacts: Contact[]) {
+  const headers = ["#", "Date", "Name", "Company", "Email", "Phone", "Inquiry Type", "Message"];
+  const escape = (val: string | null | undefined) => {
+    const str = val ?? "";
+    return `"${str.replace(/"/g, '""')}"`;
+  };
+  const rows = contacts.map((c) => [
+    c.id,
+    new Date(c.createdAt).toLocaleString("en-IN", {
+      day: "numeric", month: "short", year: "numeric",
+      hour: "2-digit", minute: "2-digit",
+    }),
+    escape(c.name),
+    escape(c.company),
+    escape(c.email),
+    escape(c.phone),
+    escape(c.inquiry),
+    escape(c.message),
+  ].join(","));
+
+  const csv = [headers.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `nexzenta-enquiries-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 export default function AdminContacts() {
   const params = useParams<{ token: string }>();
   const [contacts, setContacts] = useState<Contact[]>([]);
@@ -58,12 +88,22 @@ export default function AdminContacts() {
             <h1 className="text-2xl font-bold text-[#0B1221]">Enquiries</h1>
             <p className="text-gray-500 text-sm mt-1">{contacts.length} total submission{contacts.length !== 1 ? "s" : ""}</p>
           </div>
-          <button
-            onClick={() => window.location.reload()}
-            className="text-sm px-4 py-2 bg-[#0B1221] text-white rounded-lg hover:bg-[#0B1221]/90 transition"
-          >
-            Refresh
-          </button>
+          <div className="flex gap-2">
+            {contacts.length > 0 && (
+              <button
+                onClick={() => exportToCSV(contacts)}
+                className="text-sm px-4 py-2 bg-[#C9A84C] text-[#0B1221] font-semibold rounded-lg hover:bg-[#b8943d] transition flex items-center gap-2"
+              >
+                ⬇ Export CSV
+              </button>
+            )}
+            <button
+              onClick={() => window.location.reload()}
+              className="text-sm px-4 py-2 bg-[#0B1221] text-white rounded-lg hover:bg-[#0B1221]/90 transition"
+            >
+              Refresh
+            </button>
+          </div>
         </div>
 
         {contacts.length === 0 ? (
