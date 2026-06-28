@@ -56,7 +56,7 @@ export default function AdminContacts() {
     const lastSeenDate = stored ? new Date(stored) : null;
     setLastSeen(lastSeenDate);
 
-    fetch(`/api/admin/${params.token}/contacts`)
+    fetch(`/api/admin/${params.token}/contacts?t=${Date.now()}`, { cache: "no-store" })
       .then((r) => {
         if (!r.ok) throw new Error("Unauthorized");
         return r.json();

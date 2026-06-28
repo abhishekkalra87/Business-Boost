@@ -19,6 +19,8 @@ router.get("/admin/:token/contacts", async (req, res) => {
       .from(contactsTable)
       .orderBy(desc(contactsTable.createdAt));
 
+    res.set("Cache-Control", "no-store, no-cache, must-revalidate");
+    res.set("Pragma", "no-cache");
     res.status(200).json({ contacts });
   } catch (err) {
     req.log.error({ err }, "Failed to fetch contacts");
