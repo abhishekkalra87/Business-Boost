@@ -1,6 +1,8 @@
 import { Router } from "express";
 import { z } from "zod";
 import nodemailer from "nodemailer";
+import { db } from "@workspace/db";
+import { contactsTable } from "@workspace/db";
 
 const router = Router();
 
@@ -164,6 +166,16 @@ router.post("/contact", async (req, res) => {
     }
   } else {
     results.push("whatsapp:skipped (CALLMEBOT_API_KEY not set)");
+  }
+
+  // ── 3. Save to database ───────────────────────────────────────────────────
+  try {
+    await db.insert(contactsTable).values({ name, company, email, phone, inquiry, message });
+    results.push("db:saved");
+    req.log.info("Contact saved to database");
+  } catch (err) {
+    results.push("db:error");
+    req.log.error({ err }, "Failed to save contact to database");
   }
 
   req.log.info({ results }, "Contact form processing complete");
