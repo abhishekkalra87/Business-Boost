@@ -158,7 +158,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-accent shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <a href="mailto:talent@nexzenta.com" className="text-[#0B1221] hover:underline font-medium">
+                    <a href="mailto:talent@nexzenta.com" className="text-primary-foreground hover:underline font-medium opacity-90">
                       talent@nexzenta.com
                     </a>
                   </div>
