@@ -26,7 +26,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto"
           >
-            We don't just fill vacancies. We partner with visionaries to build teams that define the future.
+            A boutique talent acquisition partner specialising in IT/ITES, education institutions and startups. We provide pre-screened, interview-ready talent to help organisations reduce time-to-hire.
           </motion.p>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import { usePageTitle } from "@/hooks/use-page-title";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { BookOpen, PenTool, CheckCircle2 } from "lucide-react";
+import { BookOpen, PenTool, CheckCircle2, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Industries() {
@@ -86,8 +86,67 @@ export default function Industries() {
         </div>
       </section>
 
+      {/* IT / ITES Section */}
+      <section className="py-24 bg-secondary/30 border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="rounded-2xl overflow-hidden bg-muted aspect-video shadow-xl lg:order-1"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80"
+                alt="IT / ITES professionals"
+                className="w-full h-full object-cover"
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="space-y-6 lg:order-2"
+            >
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent font-medium text-sm">
+                <Monitor className="w-4 h-4" /> IT / ITES
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Building Technology Teams That Scale</h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Helping IT services, software companies, SaaS startups, and technology businesses build agile, high-performing teams with experienced technology and business professionals.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                {[
+                  "Software Engineers",
+                  "QA & Test Engineers",
+                  "DevOps & Cloud Engineers",
+                  "Data & AI Specialists",
+                  "Cybersecurity Professionals",
+                  "Business Operations"
+                ].map((role, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-foreground font-medium">
+                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0" />
+                    {role}
+                  </div>
+                ))}
+              </div>
+
+              <div className="pt-6">
+                <Button asChild>
+                  <Link href="/contact">Build Your Technology Team</Link>
+                </Button>
+              </div>
+            </motion.div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Interior & Architecture Section */}
-      <section className="py-24 bg-secondary/30">
+      <section className="py-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center lg:flex-row-reverse">
             

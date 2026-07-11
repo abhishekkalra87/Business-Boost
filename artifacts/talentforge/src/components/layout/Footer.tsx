@@ -17,7 +17,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-bold text-lg tracking-tight">NexZenta</span>
-                <span className="text-xs text-[#C9A84C] font-medium tracking-widest uppercase">Specialized Talent Partner</span>
+                <span className="text-xs text-[#C9A84C] font-medium tracking-widest uppercase">Trusted Talent Partner</span>
               </div>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">

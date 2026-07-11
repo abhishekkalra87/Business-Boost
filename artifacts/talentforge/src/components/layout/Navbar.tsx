@@ -43,7 +43,7 @@ export function Navbar() {
           </div>
           <div className="flex flex-col leading-tight">
             <span className="font-bold text-lg tracking-tight text-foreground">NexZenta</span>
-            <span className="text-xs text-accent font-medium tracking-widest uppercase">Specialized Talent Partner</span>
+            <span className="text-xs text-accent font-medium tracking-widest uppercase">Trusted Talent Partner</span>
           </div>
         </Link>
 
