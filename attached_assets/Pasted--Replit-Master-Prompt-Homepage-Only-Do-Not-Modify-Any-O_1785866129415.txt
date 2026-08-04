@@ -1,0 +1,314 @@
+# Replit Master Prompt – Homepage Only (Do Not Modify Any Other Page)
+
+## IMPORTANT INSTRUCTIONS
+
+This task is **STRICTLY LIMITED TO THE HOMEPAGE ONLY**.
+
+### DO NOT MODIFY:
+
+* About Us page
+* Services page
+* Industries page
+* Resources page
+* Contact page (except navigation links pointing to it)
+* Privacy Policy
+* Terms & Conditions
+* Any other internal page
+* Existing routing structure
+* Existing backend/API
+* Existing database
+* Existing forms
+
+Only redesign the **Homepage (Landing Page)**.
+
+---
+
+# Preserve Existing Branding
+
+Do **NOT** change or recreate the following:
+
+* NexZenta Logo
+* Logo colours
+* Brand colour palette
+* Brand typography/font family
+* Existing Black / White / Yellow theme
+* Navigation style
+* Overall brand identity
+
+The redesigned homepage should feel like an **upgraded version** of the current website—not a completely different brand.
+
+---
+
+# Homepage Objective
+
+Reposition NexZenta as a **modern AI-powered recruitment partner** while maintaining the existing brand identity.
+
+The homepage should look premium, clean, trustworthy and conversion-focused.
+
+---
+
+# CTA Buttons
+
+On the Homepage only, update the following buttons so they redirect to the Contact page:
+
+* Hire Talent
+* Book Free Consultation
+* Book Consultation
+* Schedule a Consultation
+* Start Hiring Today
+
+All of these buttons should navigate to:
+
+```text
+/contact
+```
+
+Do not use popups or modal forms.
+
+---
+
+# Update Phone Number
+
+Replace the old phone number:
+
+**+91 99685 63781**
+
+with
+
+**+91 93198 23122**
+
+wherever it appears on the Homepage and Footer.
+
+Do not modify contact information on other pages unless it is shared globally by the site's layout.
+
+---
+
+# Homepage Layout
+
+Redesign only the homepage in this order:
+
+### 1. Hero Section
+
+Headline
+
+**Build High-Performing Teams with AI-Powered Recruitment**
+
+Subheadline
+
+"NexZenta combines AI-driven candidate intelligence with expert recruiters to help startups and growing businesses hire faster, smarter, and with confidence."
+
+Buttons
+
+* Hire Talent
+* Book Free Consultation
+
+Both buttons should redirect to the Contact page.
+
+Keep the right-side illustration modern with AI recruitment visuals.
+
+---
+
+### 2. Trust Bar
+
+Trusted Hiring Partner for
+
+* Startups
+* SMEs
+* SaaS
+* AI Companies
+* Technology
+* EdTech
+
+---
+
+### 3. Why Choose NexZenta
+
+Four feature cards:
+
+* AI-Powered Talent Matching
+* Human Expert Screening
+* Faster Hiring
+* Quality Over Quantity
+
+---
+
+### 4. Results Section
+
+Display counters such as:
+
+* 1000+ Pre-Screened Professionals
+* 72 Hours Average Shortlisting
+* 95% Client Satisfaction
+* 12+ Years Recruitment Expertise
+
+Use animated counters.
+
+---
+
+### 5. AI + Human Hiring
+
+Create a modern split section showing:
+
+**AI Handles**
+
+* Resume Parsing
+* JD Matching
+* Candidate Ranking
+* Skill Extraction
+
+**Human Experts Handle**
+
+* Candidate Screening
+* Cultural Fit
+* Interview Coordination
+* Reference Checks
+
+---
+
+### 6. Hiring Process
+
+Visual timeline:
+
+Requirement
+
+↓
+
+AI Matching
+
+↓
+
+Recruiter Evaluation
+
+↓
+
+Interview
+
+↓
+
+Successful Hiring
+
+---
+
+### 7. Recruitment Solutions
+
+Display modern cards for:
+
+* Permanent Hiring
+* Leadership Hiring
+* Contract Hiring
+* RPO
+* AI Talent Intelligence
+* HR Consulting
+
+---
+
+### 8. Industries
+
+Modern icon section for:
+
+* Technology
+* SaaS
+* EdTech
+* FinTech
+* HealthTech
+* Retail
+* Manufacturing
+* AI/ML
+* Startups
+
+---
+
+### 9. Results / Success Stories
+
+Two modern case-study cards.
+
+---
+
+### 10. Testimonials
+
+Premium testimonial carousel.
+
+---
+
+### 11. Final CTA
+
+Headline:
+
+**Ready to Build Your Team?**
+
+Buttons:
+
+* Schedule a Consultation
+* Start Hiring Today
+
+Both should redirect to the Contact page.
+
+---
+
+# Footer (Homepage Only)
+
+Simplify the footer.
+
+Remove the following columns:
+
+* Our Services
+* Industries
+
+Keep only:
+
+### Column 1
+
+* NexZenta Logo
+* AI-Powered Recruitment
+* Human Expertise
+* Quality Hiring
+* Faster Results
+* Social Icons
+
+### Column 2
+
+Quick Links
+
+* About Us
+* Services
+* Resources
+* Contact Us
+* Privacy Policy
+* Terms & Conditions
+
+### Column 3
+
+Contact Us
+
+Phone:
+
++91 93198 23122
+
+Email:
+
+[talent@nexzenta.com](mailto:talent@nexzenta.com)
+
+Location:
+
+Gurgaon, India
+
+---
+
+# Design Requirements
+
+* Keep the existing NexZenta colour palette unchanged.
+* Keep the existing logo exactly as it is.
+* Keep the existing font family unchanged.
+* Maintain the current navigation/header style.
+* Improve spacing, visuals, icons, animations and layout while preserving the brand identity.
+* Ensure the homepage is fully responsive across desktop, tablet and mobile.
+
+---
+
+# Final Requirement
+
+This is a **homepage enhancement**, **not a website redesign**.
+
+The final result should feel like **NexZenta Version 2.0**—a more premium, AI-first evolution of the existing homepage—while keeping the same branding, colours, logo, typography and overall identity.
+
+**Do not modify any page other than the Homepage.**
