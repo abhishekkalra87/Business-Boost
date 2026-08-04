@@ -80,8 +80,11 @@ export function Footer() {
 
         </div>
 
-        <div className="pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
+        <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} NexZenta. All rights reserved.</p>
+          <Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>

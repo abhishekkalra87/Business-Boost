@@ -1,0 +1,102 @@
+Create a new page for my website at:
+
+/privacy-policy
+
+The page should match the existing NexZenta website design, colors, fonts, spacing and responsive layout.
+
+Page title:
+Privacy Policy
+
+SEO Title:
+Privacy Policy | NexZenta
+
+Meta Description:
+Learn how NexZenta collects, uses and protects your information when you contact us for recruitment and talent acquisition services.
+
+Content:
+
+# Privacy Policy
+
+Effective Date: 04 August 2026
+
+At NexZenta, we are committed to protecting your privacy and handling your personal information responsibly. This Privacy Policy explains how we collect, use and protect the information you provide through our website, Meta Lead Forms and other communication channels.
+
+## Information We Collect
+
+We may collect:
+
+• Full Name
+• Work Email Address
+• Phone Number
+• Company Name
+• Job Title
+• Hiring Requirements
+• Any information voluntarily submitted through our contact forms.
+
+## How We Use Your Information
+
+Your information is used only to:
+
+• Respond to your enquiries.
+• Understand your hiring requirements.
+• Provide recruitment and talent acquisition services.
+• Contact you regarding our services.
+• Improve our customer experience.
+
+## Data Sharing
+
+NexZenta does not sell, rent or trade your personal information.
+
+We may share your information only with trusted partners involved in delivering our recruitment services or where required by law.
+
+## Data Security
+
+We implement reasonable technical and organisational measures to protect your personal information against unauthorised access, misuse or disclosure.
+
+## Data Retention
+
+We retain your information only for as long as necessary to fulfil the purpose for which it was collected or as required by applicable laws.
+
+## Your Rights
+
+You may request to:
+
+• Access your information
+• Correct inaccurate information
+• Delete your information
+• Withdraw consent for future communications
+
+To make a request, email us at:
+
+talent@nexzenta.com
+
+## Third-Party Services
+
+Our website may use analytics and advertising tools to improve user experience. These services may collect anonymous usage information.
+
+## Contact Us
+
+NexZenta
+
+Email:
+talent@nexzenta.com
+
+Website:
+https://nexzenta.com
+
+Last Updated:
+04 August 2026
+
+Design requirements:
+
+- Modern professional layout
+- White background
+- Blue accent matching website
+- Maximum content width 900px
+- Nice headings
+- Responsive
+- Add breadcrumb
+- Add footer
+- Add "Back to Home" button
+- Use existing site header and footer
+- Make this page production ready.
