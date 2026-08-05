@@ -1,13 +1,10 @@
 kind = "web"
 previewPath = "/"
 title = "TalentForge Consulting"
+description = "A full-stack business consulting website for NexZenta (TalentForge Consulting) with service pages, contact form, consultation booking, admin panel, and email notifications."
 version = "1.0.0"
 id = "artifacts/talentforge"
 router = "path"
-
-[[integratedSkills]]
-name = "react-vite"
-version = "1.0.0"
 
 [[services]]
 name = "web"
@@ -19,8 +16,8 @@ run = "pnpm --filter @workspace/talentforge run dev"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/talentforge", "run", "build" ]
-publicDir = "artifacts/talentforge/dist"
 serve = "static"
+publicDir = "artifacts/talentforge/dist/public"
 
 [[services.production.rewrites]]
 from = "/*"
