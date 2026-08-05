@@ -1,0 +1,237 @@
+Create a professional Privacy Policy page for NexZenta.
+
+Route:
+/privacy-policy
+
+The page must match the existing NexZenta website design, typography, colours and layout.
+
+The page should be modern, responsive, SEO friendly and production ready.
+
+Include:
+- Existing Header
+- Existing Footer
+- Breadcrumb
+- Last Updated Date
+- Back to Home button
+
+SEO
+
+Title:
+Privacy Policy | NexZenta
+
+Meta Description:
+Read NexZenta's Privacy Policy to understand how we collect, use, store and protect your information when you use our website and services.
+
+----------------------------------------------------
+
+# Privacy Policy
+
+Effective Date: 04 August 2026
+
+Last Updated: 04 August 2026
+
+At NexZenta, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose and safeguard your information whenever you visit our website, contact us or use any of our services.
+
+By using our website, you agree to the practices described in this Privacy Policy.
+
+----------------------------------------------------
+
+## Information We Collect
+
+Depending on how you interact with NexZenta, we may collect:
+
+• Full Name
+• Email Address
+• Phone Number
+• Company Name
+• Job Title
+• Resume or CV
+• Hiring Requirements
+• Employment Information
+• Business Enquiries
+• Partnership Requests
+• Messages submitted through our contact forms
+• Any information voluntarily provided by you
+
+We may also automatically collect:
+
+• IP Address
+• Browser Information
+• Device Information
+• Cookies
+• Website Usage Analytics
+• Pages Visited
+• Referral Sources
+
+----------------------------------------------------
+
+## How We Use Your Information
+
+We use your information to:
+
+• Respond to enquiries
+• Provide recruitment services
+• Connect employers with suitable candidates
+• Process job applications
+• Contact prospective clients
+• Discuss partnership opportunities
+• Improve our website and services
+• Send service-related communications
+• Provide customer support
+• Maintain security
+• Comply with applicable laws
+
+----------------------------------------------------
+
+## Recruitment Services
+
+Candidates may voluntarily submit resumes, employment history, skills and other professional information.
+
+This information is used solely for recruitment purposes, evaluating job opportunities and matching candidates with suitable employers.
+
+----------------------------------------------------
+
+## Employer Information
+
+Organisations contacting NexZenta may provide hiring requirements and business information.
+
+This information is used only to provide recruitment and talent acquisition services.
+
+----------------------------------------------------
+
+## Cookies
+
+Our website may use cookies and similar technologies to improve user experience, analyse website traffic and enhance website performance.
+
+Users may disable cookies through their browser settings.
+
+----------------------------------------------------
+
+## Third-Party Services
+
+We may use trusted third-party providers including:
+
+• Google Analytics
+• Meta Platforms
+• LinkedIn
+• Microsoft
+• Cloud Hosting Providers
+• CRM Platforms
+• Email Service Providers
+
+These providers have their own privacy policies.
+
+----------------------------------------------------
+
+## Information Sharing
+
+NexZenta does not sell, rent or trade personal information.
+
+Information may be shared only:
+
+• With your consent
+• To provide requested services
+• With trusted service providers
+• When legally required
+
+----------------------------------------------------
+
+## Data Security
+
+We implement reasonable technical and organisational safeguards to protect personal information against unauthorised access, alteration, disclosure or destruction.
+
+While we strive to protect your information, no online transmission can be guaranteed to be completely secure.
+
+----------------------------------------------------
+
+## Data Retention
+
+We retain personal information only for as long as necessary to provide services, fulfil legal obligations and maintain business records.
+
+----------------------------------------------------
+
+## Your Rights
+
+Subject to applicable laws, you may request to:
+
+• Access your personal information
+
+• Correct inaccurate information
+
+• Delete your information
+
+• Withdraw consent
+
+• Update your information
+
+To exercise these rights please contact us.
+
+----------------------------------------------------
+
+## External Links
+
+Our website may contain links to third-party websites.
+
+We are not responsible for the privacy practices of external websites.
+
+----------------------------------------------------
+
+## Children's Privacy
+
+Our services are not intended for individuals under the age of 18.
+
+We do not knowingly collect personal information from children.
+
+----------------------------------------------------
+
+## Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+Changes will become effective immediately upon publication on this page.
+
+----------------------------------------------------
+
+## Contact Us
+
+NexZenta
+
+Email:
+talent@nexzenta.com
+
+Website:
+https://nexzenta.com
+
+For any privacy-related questions, please contact us using the above email address.
+
+----------------------------------------------------
+
+Design Requirements
+
+Create a premium corporate page.
+
+Maximum width 900px
+
+Modern typography
+
+Professional spacing
+
+Responsive
+
+Card layout
+
+Blue accents matching NexZenta branding
+
+Sticky page title
+
+Table of contents on desktop
+
+Smooth scrolling
+
+Professional icons for each section
+
+SEO friendly
+
+Fast loading
+
+Production ready
