@@ -363,7 +363,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen pt-20 overflow-x-hidden">
 
       {/* ── 1. HERO ───────────────────────────────────── */}
-      <section className="relative bg-background overflow-hidden py-28 md:py-36">
+      <section className="relative bg-background overflow-hidden py-12 md:py-16">
         {/* Reduced-opacity grid */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#C9A84C08_1px,transparent_1px),linear-gradient(to_bottom,#C9A84C08_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,#000_50%,transparent_100%)]" />
         {/* Radial gradient glow */}
