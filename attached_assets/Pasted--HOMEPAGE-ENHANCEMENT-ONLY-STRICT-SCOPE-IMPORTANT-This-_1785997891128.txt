@@ -1,0 +1,495 @@
+# HOMEPAGE ENHANCEMENT ONLY (STRICT SCOPE)
+
+IMPORTANT
+
+This task is STRICTLY LIMITED to improving the Homepage (Landing Page) only.
+
+Do NOT redesign the website.
+
+Do NOT change branding.
+
+Do NOT modify any other page.
+
+Think of this as releasing:
+
+NexZenta Version 2.0
+
+—not creating a new website.
+
+=================================================
+DO NOT MODIFY
+=================================================
+
+The following MUST remain untouched:
+
+• About Us
+• Services
+• Industries
+• Resources
+• Contact
+• Privacy Policy
+• Terms & Conditions
+• Routing
+• Backend
+• APIs
+• Database
+• Forms
+• Authentication
+• SEO structure
+• Existing page URLs
+
+Only edit the Homepage component(s).
+
+=================================================
+PRESERVE BRAND IDENTITY
+=================================================
+
+Keep exactly as-is:
+
+• NexZenta Logo
+• Brand Colors
+• Typography
+• Black / White / Yellow theme
+• Navigation/Header
+• Overall visual identity
+
+The homepage should feel like an upgraded premium version of the existing site.
+
+=================================================
+PRIMARY GOAL
+=================================================
+
+Position NexZenta as an AI-Powered Recruitment Partner.
+
+The homepage should communicate:
+
+• AI + Human Recruitment
+• Premium
+• Modern
+• Enterprise Ready
+• Trustworthy
+• Fast Hiring
+• Conversion Focused
+
+=================================================
+BUTTONS
+=================================================
+
+Update Homepage CTA buttons only.
+
+The following buttons should navigate to:
+
+/contact
+
+Buttons:
+
+• Hire Talent
+• Book Free Consultation
+• Book Consultation
+• Schedule a Consultation
+• Start Hiring Today
+
+Do NOT use popup forms.
+
+=================================================
+PHONE NUMBER
+=================================================
+
+Replace
+
++91 99685 63781
+
+with
+
++91 93198 23122
+
+Only on:
+
+• Homepage
+• Footer if shared globally
+
+Do not modify contact information on other pages unless it comes from the shared layout.
+
+=================================================
+HOMEPAGE STRUCTURE
+=================================================
+
+1. HERO SECTION
+
+Headline
+
+Build High-Performing Teams with AI-Powered Recruitment
+
+Subheadline
+
+NexZenta combines AI-driven candidate intelligence with expert recruiters to help startups and growing businesses hire faster, smarter, and with confidence.
+
+Buttons
+
+• Hire Talent
+• Book Free Consultation
+
+Both link to:
+
+/contact
+
+Right side:
+
+Modern AI recruitment illustration with recruiter dashboard, AI matching, resumes, analytics.
+
+=================================================
+
+2. TRUST BAR
+
+Trusted Hiring Partner For
+
+• Startups
+• SMEs
+• SaaS
+• AI Companies
+• Technology
+• EdTech
+
+Use monochrome icons or clean logo-style badges.
+
+=================================================
+
+3. WHY CHOOSE NEXZENTA
+
+Four premium feature cards.
+
+AI-Powered Talent Matching
+
+Human Expert Screening
+
+Faster Hiring
+
+Quality Over Quantity
+
+Include subtle hover animation.
+
+=================================================
+
+4. RESULTS SECTION
+
+Animated Counters
+
+1000+
+
+Pre-Screened Professionals
+
+72 Hours
+
+Average Shortlisting
+
+95%
+
+Client Satisfaction
+
+12+
+
+Years Recruitment Expertise
+
+Counters should animate when entering viewport.
+
+=================================================
+
+5. AI + HUMAN HIRING
+
+Two-column comparison.
+
+LEFT
+
+AI Handles
+
+• Resume Parsing
+
+• JD Matching
+
+• Candidate Ranking
+
+• Skill Extraction
+
+RIGHT
+
+Human Experts Handle
+
+• Candidate Screening
+
+• Cultural Fit
+
+• Interview Coordination
+
+• Reference Checks
+
+Use modern comparison cards.
+
+=================================================
+
+6. HIRING PROCESS
+
+Create horizontal timeline.
+
+Requirement
+
+↓
+
+AI Matching
+
+↓
+
+Recruiter Evaluation
+
+↓
+
+Interview
+
+↓
+
+Successful Hiring
+
+Desktop:
+
+Horizontal timeline.
+
+Mobile:
+
+Vertical timeline.
+
+=================================================
+
+7. RECRUITMENT SOLUTIONS
+
+Premium cards
+
+Permanent Hiring
+
+Leadership Hiring
+
+Contract Hiring
+
+RPO
+
+AI Talent Intelligence
+
+HR Consulting
+
+=================================================
+
+8. INDUSTRIES
+
+Responsive icon grid.
+
+Technology
+
+SaaS
+
+EdTech
+
+FinTech
+
+HealthTech
+
+Retail
+
+Manufacturing
+
+AI/ML
+
+Startups
+
+=================================================
+
+9. SUCCESS STORIES
+
+Create two modern case-study cards.
+
+Example metrics:
+
+Reduced hiring time by 45%
+
+Filled 20+ engineering positions in 30 days
+
+Improved candidate quality by 60%
+
+Use clean statistic-focused layouts.
+
+=================================================
+
+10. TESTIMONIALS
+
+Premium carousel.
+
+Card style.
+
+Soft shadows.
+
+Auto-slide.
+
+Navigation dots.
+
+=================================================
+
+11. FINAL CTA
+
+Headline
+
+Ready to Build Your Team?
+
+Buttons
+
+Schedule a Consultation
+
+Start Hiring Today
+
+Both redirect to
+
+/contact
+
+=================================================
+FOOTER
+=================================================
+
+Simplify Homepage footer.
+
+Remove:
+
+• Services column
+• Industries column
+
+Keep:
+
+COLUMN 1
+
+NexZenta Logo
+
+AI-Powered Recruitment
+
+Human Expertise
+
+Quality Hiring
+
+Faster Results
+
+Social Icons
+
+COLUMN 2
+
+Quick Links
+
+About Us
+
+Services
+
+Resources
+
+Contact Us
+
+Privacy Policy
+
+Terms & Conditions
+
+COLUMN 3
+
+Contact
+
+Phone
+
++91 93198 23122
+
+Email
+
+talent@nexzenta.com
+
+Location
+
+Gurgaon, India
+
+=================================================
+ANIMATIONS
+=================================================
+
+Use lightweight animations only.
+
+Examples:
+
+• Fade Up
+• Slide In
+• Counter Animation
+• Hover Elevation
+• Gradient Glow
+• Smooth Scrolling
+
+Avoid heavy or distracting animations.
+
+=================================================
+RESPONSIVE DESIGN
+=================================================
+
+Desktop
+
+Tablet
+
+Mobile
+
+Maintain excellent spacing and readability across all breakpoints.
+
+=================================================
+PERFORMANCE
+=================================================
+
+Do not negatively impact page speed.
+
+Reuse existing components where possible.
+
+Avoid unnecessary dependencies.
+
+Keep Lighthouse performance high.
+
+=================================================
+ACCESSIBILITY
+=================================================
+
+Maintain proper semantic HTML.
+
+ARIA labels where appropriate.
+
+Keyboard navigation.
+
+Good color contrast.
+
+=================================================
+FINAL VALIDATION
+=================================================
+
+Before completing:
+
+✓ Homepage only modified
+
+✓ Branding unchanged
+
+✓ Logo unchanged
+
+✓ Colors unchanged
+
+✓ Fonts unchanged
+
+✓ Navigation unchanged
+
+✓ Buttons link to /contact
+
+✓ Phone number updated
+
+✓ Mobile responsive
+
+✓ No routing changes
+
+✓ No backend changes
+
+✓ No database changes
+
+✓ No broken components
+
+✓ Existing pages untouched
+
+Deliver the Homepage as a premium, conversion-focused landing page that feels like "NexZenta Version 2.0" while preserving the existing brand identity and architecture.
