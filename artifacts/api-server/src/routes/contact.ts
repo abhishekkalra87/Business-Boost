@@ -7,7 +7,7 @@ import { getTransporter, resetTransporter, verifyTransporter } from "./emailTran
 const router = Router();
 
 const NEXZENTA_EMAIL = "talent@nexzenta.com";
-const NEXZENTA_PHONE = "919968563781";
+const NEXZENTA_PHONE = "919319823122";
 
 // Warm up connection on server start
 const warmupTransporter = (): void => {

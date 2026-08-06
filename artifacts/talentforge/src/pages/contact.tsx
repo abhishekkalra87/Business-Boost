@@ -68,7 +68,7 @@ export default function Contact() {
               <div className="flex flex-col items-center justify-center py-16 gap-4 text-center">
                 <CheckCircle className="w-16 h-16 text-green-500" />
                 <h3 className="text-xl font-bold text-foreground">Message Sent!</h3>
-                <p className="text-muted-foreground">Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+                <p className="text-muted-foreground">Your message has been sent to NexZenta. Our HR team will contact you shortly.</p>
                 <Button variant="outline" onClick={() => setStatus("idle")} className="mt-4">Send Another Message</Button>
               </div>
             ) : (
@@ -114,7 +114,16 @@ export default function Contact() {
                   <Textarea id="message" value={form.message} onChange={handleChange} placeholder="How can we help you?" rows={5} required />
                 </div>
                 {status === "error" && (
-                  <p className="text-sm text-red-500">Something went wrong. Please try again or email us directly at talent@nexzenta.com</p>
+                  <div className="rounded-lg border border-red-200 bg-red-50 dark:bg-red-950/20 dark:border-red-900 p-4 text-sm text-red-700 dark:text-red-400 leading-relaxed">
+                    <p className="font-semibold mb-1">Apologies — we couldn't send your message due to a technical error.</p>
+                    <p>
+                      Please email us at{" "}
+                      <a href="mailto:talent@nexzenta.com" className="underline font-medium">talent@nexzenta.com</a>
+                      {" "}or call{" "}
+                      <a href="tel:+919319823122" className="underline font-medium">+91 93198 23122</a>
+                      {" "}and our talent team will reach out to you shortly.
+                    </p>
+                  </div>
                 )}
                 <Button type="submit" className="w-full h-12 text-base" disabled={status === "sending"}>
                   {status === "sending" ? (
@@ -151,7 +160,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-accent shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
-                    <p className="text-primary-foreground/80">+91 99685 63781</p>
+                    <p className="text-primary-foreground/80">+91 93198 23122</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -171,7 +180,7 @@ export default function Contact() {
                   className="w-full bg-transparent border-accent text-accent hover:bg-accent hover:text-primary"
                   asChild
                 >
-                  <a href="https://wa.me/919968563781?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20NexZenta." target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919319823122?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20NexZenta." target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5 mr-2" /> Chat on WhatsApp
                   </a>
                 </Button>
