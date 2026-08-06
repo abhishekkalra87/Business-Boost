@@ -1,0 +1,592 @@
+# NEXZENTA HOMEPAGE V3.0 – PREMIUM AI-POWERED RECRUITMENT LANDING PAGE
+
+## OBJECTIVE
+
+Enhance ONLY the Homepage (Landing Page).
+
+This is NOT a website redesign.
+
+This is NOT a rebranding exercise.
+
+The objective is to transform the existing homepage into a premium, enterprise-grade AI recruitment landing page while preserving the current NexZenta identity.
+
+Think of this as:
+
+"NexZenta Version 3.0"
+
+====================================================
+STRICTLY DO NOT MODIFY
+====================================================
+
+Do NOT modify:
+
+• About Us
+• Services
+• Industries
+• Resources
+• Contact Page
+• Privacy Policy
+• Terms & Conditions
+• Routing
+• Backend
+• APIs
+• Database
+• Forms
+• Authentication
+• SEO URLs
+
+Only improve the Homepage.
+
+====================================================
+PRESERVE BRAND IDENTITY
+====================================================
+
+Keep exactly as-is:
+
+✓ NexZenta Logo
+✓ Brand Colours
+✓ Black / White / Gold Theme
+✓ Existing Font Family
+✓ Navigation Style
+✓ Brand Identity
+
+The homepage should feel like a premium evolution of the current website.
+
+====================================================
+OVERALL LOOK & FEEL
+====================================================
+
+The homepage should immediately communicate:
+
+• AI-Powered Recruitment
+• Trusted Talent Partner
+• Enterprise Quality
+• Premium
+• Modern
+• Fast Hiring
+• Human + AI
+• Professional
+• Conversion Focused
+
+The visual quality should be comparable to:
+
+• Deel
+• Rippling
+• Greenhouse
+• Ashby
+• Remote
+• Stripe
+• Linear
+
+====================================================
+HEADER
+====================================================
+
+Keep the current navigation.
+
+Enhance only:
+
+• Sticky Header
+• Glass Blur Effect on Scroll
+• Smooth Shadow
+• Better Hover Effects
+• Smooth Scroll
+
+Display below the logo:
+
+AI-POWERED TRUSTED TALENT PARTNER
+
+CTA Button:
+
+Book Consultation
+
+Redirect to:
+
+/contact
+
+====================================================
+HERO SECTION
+====================================================
+
+Small Badge
+
+✨ AI-Powered Trusted Talent Partner
+
+Headline
+
+Build High-Performing Teams with AI-Powered Recruitment
+
+Highlight only:
+
+AI-Powered Recruitment
+
+using the existing gold accent colour.
+
+Subheadline
+
+NexZenta combines AI-driven candidate intelligence with expert recruiters to help startups and growing businesses hire faster, smarter, and with confidence.
+
+CTA Buttons
+
+• Hire Talent
+• Book Free Consultation
+
+Both redirect to:
+
+/contact
+
+====================================================
+REMOVE
+====================================================
+
+Remove completely:
+
+❌ No Placement Fee
+
+Do NOT display this anywhere on the Homepage.
+
+Replace with value-focused trust badges.
+
+====================================================
+TRUST BADGES
+====================================================
+
+Below the CTA buttons display:
+
+🤖 AI-Powered Matching
+
+👥 Expert Recruiters
+
+⚡ 72-Hour Shortlisting
+
+🎯 1000+ Pre-Screened Professionals
+
+These should appear as premium badges with subtle hover animations.
+
+====================================================
+RIGHT HERO VISUAL
+====================================================
+
+Keep the AI dashboard concept.
+
+Enhance it significantly.
+
+Include:
+
+• AI Candidate Matching
+• Resume Cards
+• Match Score
+• Skill Tags
+• AI Analysis
+• Candidate Ranking
+• Analytics
+• Floating Glass Cards
+• Yellow Glow
+• Connection Lines
+• Soft Motion
+• Premium Shadows
+
+It should resemble a modern AI recruitment platform.
+
+====================================================
+BACKGROUND
+====================================================
+
+Reduce grid opacity.
+
+Add:
+
+• Soft radial gradients
+• Light glow
+• Premium depth
+• Elegant background accents
+
+====================================================
+TRUST BAR
+====================================================
+
+Trusted Hiring Partner For
+
+• Startups
+• SMEs
+• SaaS
+• AI Companies
+• Technology
+• EdTech
+
+Use premium monochrome icons.
+
+====================================================
+WHY CHOOSE NEXZENTA
+====================================================
+
+Create four premium feature cards.
+
+AI-Powered Talent Matching
+
+Human Expert Screening
+
+Faster Hiring
+
+Quality Over Quantity
+
+Include hover lift and subtle glow.
+
+====================================================
+RESULTS
+====================================================
+
+Animated Counters
+
+1000+
+
+Pre-Screened Professionals
+
+72 Hours
+
+Average Shortlisting
+
+95%
+
+Client Satisfaction
+
+12+
+
+Years Recruitment Expertise
+
+Animate when entering viewport.
+
+====================================================
+AI + HUMAN RECRUITMENT
+====================================================
+
+Premium split layout.
+
+LEFT
+
+AI Handles
+
+• Resume Parsing
+
+• JD Matching
+
+• Candidate Ranking
+
+• Skill Extraction
+
+RIGHT
+
+Human Experts Handle
+
+• Candidate Screening
+
+• Culture Fit
+
+• Interview Coordination
+
+• Reference Checks
+
+Use a modern central illustration showing AI working alongside recruiters.
+
+====================================================
+HIRING PROCESS
+====================================================
+
+Premium timeline.
+
+Requirement
+
+↓
+
+AI Matching
+
+↓
+
+Recruiter Evaluation
+
+↓
+
+Interview
+
+↓
+
+Successful Hiring
+
+Desktop:
+
+Horizontal
+
+Mobile:
+
+Vertical
+
+====================================================
+RECRUITMENT SOLUTIONS
+====================================================
+
+Premium cards.
+
+Permanent Hiring
+
+Leadership Hiring
+
+Contract Hiring
+
+RPO
+
+AI Talent Intelligence
+
+HR Consulting
+
+====================================================
+INDUSTRIES
+====================================================
+
+Technology
+
+SaaS
+
+EdTech
+
+FinTech
+
+HealthTech
+
+Retail
+
+Manufacturing
+
+AI / ML
+
+Startups
+
+Use consistent modern icons.
+
+====================================================
+SUCCESS STORIES
+====================================================
+
+Create two premium case study cards.
+
+Examples:
+
+45%
+
+Reduction in Hiring Time
+
+60%
+
+Better Candidate Quality
+
+Focus on measurable business outcomes.
+
+====================================================
+TESTIMONIALS
+====================================================
+
+DO NOT use fake personal names.
+
+Instead use:
+
+HR Director
+SaaS Company
+
+Founder
+AI Startup
+
+Talent Acquisition Lead
+FinTech Company
+
+Operations Head
+EdTech Company
+
+Engineering Manager
+Technology Company
+
+Premium carousel.
+
+Glassmorphism cards.
+
+Smooth transitions.
+
+====================================================
+FINAL CTA
+====================================================
+
+Headline
+
+Ready to Build Your Team?
+
+Subheadline
+
+Let's help you hire smarter, faster and with confidence.
+
+Buttons
+
+Schedule a Consultation
+
+Start Hiring Today
+
+Both redirect to:
+
+/contact
+
+====================================================
+FOOTER
+====================================================
+
+Simplify Homepage Footer.
+
+Column 1
+
+Logo
+
+AI-Powered Recruitment
+
+Human Expertise
+
+Quality Hiring
+
+Faster Results
+
+Social Icons
+
+Column 2
+
+Quick Links
+
+About Us
+
+Services
+
+Resources
+
+Contact Us
+
+Privacy Policy
+
+Terms & Conditions
+
+Column 3
+
+Contact
+
+Phone
+
++91 93198 23122
+
+Email
+
+talent@nexzenta.com
+
+Location
+
+Gurgaon, India
+
+====================================================
+ANIMATIONS
+====================================================
+
+Use subtle premium animations only.
+
+• Fade Up
+• Slide
+• Hover Lift
+• Counter Animation
+• Glow Effects
+• Smooth Scrolling
+• Button Hover
+
+No flashy effects.
+
+====================================================
+SPACING
+====================================================
+
+Increase whitespace.
+
+Improve section separation.
+
+Enhance readability.
+
+Maintain premium visual balance.
+
+====================================================
+TYPOGRAPHY
+====================================================
+
+Keep existing font family.
+
+Improve:
+
+• Heading sizes
+• Line height
+• Font weight hierarchy
+• Section spacing
+
+====================================================
+RESPONSIVE
+====================================================
+
+Perfect responsiveness on:
+
+Desktop
+
+Tablet
+
+Mobile
+
+====================================================
+PERFORMANCE
+====================================================
+
+Do NOT add unnecessary libraries.
+
+Reuse existing components wherever possible.
+
+Maintain fast loading speed and Lighthouse performance.
+
+====================================================
+ACCESSIBILITY
+====================================================
+
+Maintain:
+
+• Semantic HTML
+• Keyboard Navigation
+• ARIA Labels
+• Proper Colour Contrast
+
+====================================================
+FINAL VALIDATION
+====================================================
+
+✓ Homepage only modified
+
+✓ No changes to internal pages
+
+✓ Branding preserved
+
+✓ Logo unchanged
+
+✓ Colours unchanged
+
+✓ Fonts unchanged
+
+✓ Navigation unchanged
+
+✓ "No Placement Fee" removed
+
+✓ AI-Powered Trusted Talent Partner added
+
+✓ Anonymous testimonials
+
+✓ CTA buttons redirect to /contact
+
+✓ Phone number updated to +91 93198 23122
+
+✓ Fully responsive
+
+✓ Enterprise-quality UI
+
+The final homepage should make visitors immediately understand that NexZenta is an AI-Powered Trusted Talent Partner that combines intelligent AI technology with experienced recruiters to deliver faster, smarter, and higher-quality hiring.
