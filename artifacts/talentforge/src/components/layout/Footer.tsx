@@ -7,9 +7,9 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
 
-          {/* Brand */}
-          <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2 text-white mb-6">
+          {/* Column 1 — Brand */}
+          <div className="space-y-5">
+            <Link href="/" className="flex items-center gap-2 text-white">
               <div className="w-8 h-8 rounded bg-[#C9A84C] flex items-center justify-center text-[#0B1221] font-bold text-xl leading-none">
                 NZ
               </div>
@@ -18,60 +18,72 @@ export function Footer() {
                 <span className="text-xs text-[#C9A84C] font-medium tracking-widest uppercase">Trusted Talent Partner</span>
               </div>
             </Link>
-            <ul className="space-y-1.5 text-sm text-slate-400">
+            <ul className="space-y-2 text-sm text-slate-400">
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C]" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C] shrink-0" />
                 AI-Powered Recruitment
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C]" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C] shrink-0" />
                 Human Expertise
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C]" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C] shrink-0" />
                 Quality Hiring
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C]" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C] shrink-0" />
                 Faster Results
               </li>
             </ul>
-            <div className="flex gap-4 pt-2">
-              <a href="#" aria-label="Facebook" className="text-slate-400 hover:text-[#C9A84C] transition-colors"><Facebook className="w-5 h-5" /></a>
-              <a href="#" aria-label="Twitter" className="text-slate-400 hover:text-[#C9A84C] transition-colors"><Twitter className="w-5 h-5" /></a>
-              <a href="#" aria-label="LinkedIn" className="text-slate-400 hover:text-[#C9A84C] transition-colors"><Linkedin className="w-5 h-5" /></a>
-              <a href="#" aria-label="Instagram" className="text-slate-400 hover:text-[#C9A84C] transition-colors"><Instagram className="w-5 h-5" /></a>
+            <div className="flex gap-4 pt-1">
+              <a href="#" aria-label="Facebook" className="text-slate-400 hover:text-[#C9A84C] transition-colors">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="#" aria-label="Twitter" className="text-slate-400 hover:text-[#C9A84C] transition-colors">
+                <Twitter className="w-5 h-5" />
+              </a>
+              <a href="https://linkedin.com" aria-label="LinkedIn" className="text-slate-400 hover:text-[#C9A84C] transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="#" aria-label="Instagram" className="text-slate-400 hover:text-[#C9A84C] transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Column 2 — Quick Links */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-6">Quick Links</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3 text-sm">
               <li><Link href="/about" className="hover:text-[#C9A84C] transition-colors">About Us</Link></li>
               <li><Link href="/services" className="hover:text-[#C9A84C] transition-colors">Services</Link></li>
-              <li><Link href="/industries" className="hover:text-[#C9A84C] transition-colors">Resources</Link></li>
+              <li><Link href="/contact" className="hover:text-[#C9A84C] transition-colors">Resources</Link></li>
               <li><Link href="/contact" className="hover:text-[#C9A84C] transition-colors">Contact Us</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">Privacy Policy</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">Terms &amp; Conditions</Link></li>
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Column 3 — Contact */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6">Contact Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-[#C9A84C] shrink-0" />
-                <span className="text-sm">+91 93198 23122</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-[#C9A84C] shrink-0" />
-                <a href="mailto:talent@nexzenta.com" className="text-sm hover:text-[#C9A84C] transition-colors">talent@nexzenta.com</a>
+            <h3 className="text-white font-semibold text-lg mb-6">Contact</h3>
+            <ul className="space-y-4 text-sm">
+              <li className="flex items-start gap-3">
+                <Phone className="w-4 h-4 text-[#C9A84C] shrink-0 mt-0.5" />
+                <a href="tel:+919319823122" className="hover:text-[#C9A84C] transition-colors">
+                  +91 93198 23122
+                </a>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-[#C9A84C] shrink-0 mt-0.5" />
-                <span className="text-sm">Gurgaon, India</span>
+                <Mail className="w-4 h-4 text-[#C9A84C] shrink-0 mt-0.5" />
+                <a href="mailto:talent@nexzenta.com" className="hover:text-[#C9A84C] transition-colors">
+                  talent@nexzenta.com
+                </a>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 text-[#C9A84C] shrink-0 mt-0.5" />
+                <span>Gurgaon, India</span>
               </li>
             </ul>
           </div>
@@ -81,9 +93,12 @@ export function Footer() {
         <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} NexZenta. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">Privacy Policy</Link>
-            <span>·</span>
-            <Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">Terms &amp; Conditions</Link>
+            <Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/privacy-policy" className="hover:text-[#C9A84C] transition-colors">
+              Terms &amp; Conditions
+            </Link>
           </div>
         </div>
       </div>
