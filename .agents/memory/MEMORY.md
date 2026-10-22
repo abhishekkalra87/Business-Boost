@@ -1,0 +1,1 @@
+- [Publishing approval](publishing-approval.md) — wait for explicit approval before deploying or publishing NexZenta changes.

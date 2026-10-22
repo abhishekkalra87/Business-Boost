@@ -22,6 +22,7 @@ import Careers from "@/pages/careers";
 import Contact from "@/pages/contact";
 import AdminContacts from "@/pages/admin";
 import PrivacyPolicy from "@/pages/privacy-policy";
+import AIAcademy from "@/pages/ai-academy";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ function Router() {
               <Route path="/careers" component={Careers} />
               <Route path="/contact" component={Contact} />
               <Route path="/privacy-policy" component={PrivacyPolicy} />
+              <Route path="/ai-academy" component={AIAcademy} />
               <Route component={NotFound} />
             </Switch>
           </main>

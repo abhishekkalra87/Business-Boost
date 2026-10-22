@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: academy
+    description: AI Academy enquiry operations
 paths:
   /healthz:
     get:
@@ -24,6 +26,42 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /ai-academy/enquiries:
+    post:
+      operationId: submitAcademyEnquiry
+      tags: [academy]
+      summary: Submit an AI Academy enquiry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AcademyEnquiryInput"
+      responses:
+        "201":
+          description: Enquiry received
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AcademyEnquiryResponse"
+        "400":
+          description: Invalid enquiry
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+        "429":
+          description: Too many enquiries
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+        "500":
+          description: Enquiry could not be saved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +71,64 @@ components:
           type: string
       required:
         - status
+    AcademyEnquiryInput:
+      type: object
+      additionalProperties: false
+      required: [fullName, email, enquiryType, privacyConsent]
+      properties:
+        fullName:
+          type: string
+          minLength: 2
+          maxLength: 120
+        email:
+          type: string
+          format: email
+          maxLength: 254
+        phone:
+          type: string
+          maxLength: 40
+        enquiryType:
+          type: string
+          enum: [individual, corporate, trainer]
+        courseInterest:
+          type: string
+          enum: [ai-hr, project-management, business-automation]
+        company:
+          type: string
+          maxLength: 160
+        teamSize:
+          type: string
+          maxLength: 80
+        trainingNeeds:
+          type: string
+          maxLength: 3000
+        linkedinProfile:
+          type: string
+          format: uri
+          maxLength: 500
+        expertise:
+          type: string
+          maxLength: 300
+        teachingExperience:
+          type: string
+          maxLength: 2000
+        privacyConsent:
+          type: boolean
+        website:
+          type: string
+          maxLength: 300
+    AcademyEnquiryResponse:
+      type: object
+      required: [success, message]
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+    ApiError:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
 
